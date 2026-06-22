@@ -20,7 +20,7 @@ export default function HomePage() {
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-[12rem_1fr]">
         <aside className="md:border-r md:border-gray-100 md:pr-4">
-          <h2 className="mb-2 text-xs font-bold uppercase tracking-wide text-[#6f5846]">
+          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-400">
             {t('categories')}
           </h2>
           <CategoryNav />
