@@ -16,11 +16,11 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
-      <p className="mb-6 text-gray-600">{t('tagline')}</p>
+      <p className="mb-6 font-bold text-[#6f5846]">{t('tagline')}</p>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-[12rem_1fr]">
         <aside className="md:border-r md:border-gray-100 md:pr-4">
-          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-gray-400">
+          <h2 className="mb-2 text-xs font-bold uppercase tracking-wide text-[#6f5846]">
             {t('categories')}
           </h2>
           <CategoryNav />

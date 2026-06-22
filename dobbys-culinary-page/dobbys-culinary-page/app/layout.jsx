@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="bg">
-      <body className="min-h-screen bg-gradient-to-b from-amber-50 to-white text-gray-900">
+      <body className="min-h-screen bg-cappuccino-print text-[#4a2d1e]">
         <LanguageProvider>
           <Header />
           <main className="pb-16">{children}</main>

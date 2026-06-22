@@ -1,6 +1,6 @@
 # Dobby's Culinary Page 🧦🍳
 
-A small and offline, **bilingual (Bulgarian / English)** recipe website built with **Next.js (App Router)**.
+A small, offline, **bilingual (Bulgarian / English)** recipe website built with **Next.js (App Router)**.
 Recipes are organized into categories (Salads, Meat, Fish, Vegan, and Desserts with the subgroups
 Ice creams, Creams, Cakes, Healthy), plus a Contacts page. Each recipe shows its required products,
 duration, preparation method, and a photo. No database, no runtime network calls — it runs entirely

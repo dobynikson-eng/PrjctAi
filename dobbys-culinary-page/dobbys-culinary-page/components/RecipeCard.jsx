@@ -14,7 +14,7 @@ export default function RecipeCard({ recipe }) {
   return (
     <Link
       href={`/recipe/${recipe.slug}/`}
-      className="group block overflow-hidden rounded-xl bg-white shadow-sm ring-1 ring-gray-100 transition hover:-translate-y-1 hover:shadow-md"
+      className="group block overflow-hidden rounded-xl bg-[#f1e3d0] shadow-sm shadow-[#8c6e5c]/10 ring-1 ring-[#d6b99d]/80 transition hover:-translate-y-1 hover:shadow-md"
     >
       <RecipeImage
         photo={recipe.photo}
@@ -22,8 +22,8 @@ export default function RecipeCard({ recipe }) {
         className="h-44 w-full object-cover"
       />
       <div className="p-4">
-        <h3 className="text-lg font-semibold text-gray-800 group-hover:text-rose-600">{name}</h3>
-        <p className="mt-1 text-sm text-gray-500">
+        <h3 className="text-lg font-semibold text-[#492f1f] group-hover:text-[#3f2419]">{name}</h3>
+        <p className="mt-1 text-sm text-[#6f5846]">
           ⏱️ {recipe.durationMinutes} {t('minutesShort')}
         </p>
       </div>
